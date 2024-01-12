@@ -7,9 +7,7 @@ This Minecraft Fabric mod introduces exciting RPG (Role-Playing Game) elements t
 ## Features
 
 - **RPG Stats System**: Integrate a robust RPG stats system into Minecraft, allowing players to customize and improve their character's attributes.
-- **Leveling Mechanism**: Implement a leveling system that rewards players for their in-game achievements, encouraging progression and exploration.
-- **Attribute Customization**: Fine-tune your character's strengths and weaknesses by allocating points to various attributes such as strength, agility, intelligence, and more.
-- **Skills and Abilities**: Unlock and upgrade special skills and abilities as your character levels up, adding a strategic layer to gameplay.
+- **Attribute Customization**: Fine-tune your character's strengths and weaknesses by allocating points to various attributes such as strength, dexterity, luck, and more.
 - **Compatible with Fabric**: Built using the Fabric mod loader, ensuring compatibility with other Fabric mods for a seamless gaming experience.
 
 ## Installation
