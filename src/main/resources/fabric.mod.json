@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "rpgstats",
+	"version": "${version}",
+	"name": "RPG-Stats",
+	"description": "This mod is a part of the RPG kit series that provides stats that will be used like in a classic rpg game",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/rpgstats/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.boneguy45.rpgstats.RPGStats"
+		],
+		"client": [
+			"com.boneguy45.rpgstats.RPGStatsClient"
+		],
+		"fabric-datagen": [
+			"com.boneguy45.rpgstats.RPGStatsDataGenerator"
+		]
+	},
+	"mixins": [
+		"rpgstats.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
